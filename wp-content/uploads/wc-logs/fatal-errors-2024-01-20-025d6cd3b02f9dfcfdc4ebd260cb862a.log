@@ -1,0 +1,15 @@
+2024-01-20T09:22:22+00:00 CRITICAL Uncaught Error: Class "EAInstallTools" not found in C:\xampp\htdocs\wordpress2\wp-content\plugins\easy-appointments\main.php:172
+Stack trace:
+#0 C:\xampp\htdocs\wordpress2\wp-content\plugins\easy-appointments\vendor\lucatume\di52\src\tad\DI52\Container.php(242): EasyAppointment->{closure}(Object(tad_DI52_Container))
+#1 C:\xampp\htdocs\wordpress2\wp-content\plugins\easy-appointments\main.php(256): tad_DI52_Container->offsetGet('install_tools')
+#2 C:\xampp\htdocs\wordpress2\wp-includes\class-wp-hook.php(324): EasyAppointment->update('')
+#3 C:\xampp\htdocs\wordpress2\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#4 C:\xampp\htdocs\wordpress2\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wordpress2\wp-settings.php(506): do_action('plugins_loaded')
+#6 C:\xampp\htdocs\wordpress2\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wordpress2\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wordpress2\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#9 C:\xampp\htdocs\wordpress2\index.php(17): require('C:\\xampp\\htdocs...')
+#10 {main}
+  thrown in C:\xampp\htdocs\wordpress2\wp-content\plugins\easy-appointments\main.php on line 172
+
